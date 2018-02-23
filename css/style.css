@@ -1,0 +1,17 @@
+body { font-family: sans-serif; }
+
+.board h1 { text-align: center; }
+
+.create-column { display: block; margin: 20px auto; border: 2px solid; background: #3498db; padding: 5px; border-radius: 10px; }
+
+.column-card-list { padding: 0; }
+
+.column-container { display: flex; flex-direction: row; flex-wrap: nowrap; }
+
+.column { width: 33.3%; background: #505050; border: 1px solid; text-align: center; }
+
+.card { list-style: none; border: 1px solid; width: 80%; margin-left: 10%; margin-right: 10%; background: #3498db; border-radius: 5px; padding-top: 5px; margin-bottom: 10px; }
+
+.add-card { border: 1px solid; border-radius: 5px; padding: 5px; margin-right: 10px; }
+
+.btn-delete { border-radius: 5px; padding: 5px; border: 1px solid; }
